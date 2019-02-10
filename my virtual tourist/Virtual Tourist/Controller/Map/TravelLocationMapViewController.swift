@@ -5,6 +5,10 @@ import CoreData
 
 class TravelLocationMapViewController: UIViewController, MKMapViewDelegate {
     
+    
+    
+    // core data variables
+    
     var dataController: DataController!
     var fetchRequest: NSFetchRequest<Pin> = Pin.fetchRequest()
     
